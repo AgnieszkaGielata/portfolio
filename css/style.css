@@ -1,4 +1,4 @@
-* Base styles */
+/* Base styles */
 * {
     box-sizing: border-box;
 }
@@ -275,6 +275,11 @@ label[for="drop-nav"] {
     }
 
     .portfolio-wrapper .portfolio-item {
+        flex-basis: 100%;
+    }
+
+    .contact input[type="text"],
+    .contact input[type="email"]{
         flex-basis: 100%;
     }
 }
